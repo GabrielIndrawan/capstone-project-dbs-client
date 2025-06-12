@@ -7,14 +7,12 @@ class TestPresenter {
     this._container = container;
     this._model = new Model(this);
 
-    // Parameter untuk preprocessing dan model
     this._maxLen = 100;
   }
 
   async showTestPageContent() {
     this._renderTestForm();
   }
-
 
   _renderTestForm() {
     this._container.innerHTML = `
@@ -47,7 +45,6 @@ class TestPresenter {
     }catch(error){
       resultEl.innerText = 'Terjadi kesalahan saat memproses input.';
     }
-    
   }
 }
 
