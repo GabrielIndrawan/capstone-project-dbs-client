@@ -11,7 +11,7 @@ export default class HomePage {
             <h5 class="custom-hero-subtitle">Future Path </h5>
             <h1 class="custom-hero-title">UNLOCKING<br>YOUR FUTURE <br>TO SUCCESS</h1>
             <p class="custom-hero-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus aliquam velit ac mattis. Vestibulum scelerisque orci dui, eget dignissim tellus interdum non.
+              Sebuah aplikasi web/prototipe yang membantu pengguna merencanakan arah karier atau kehidupan masa depan melalui kepribadian anda.
             </p>
             <a href="#/test" class="custom-hero-btn">GET STARTED</a>
           </div>
